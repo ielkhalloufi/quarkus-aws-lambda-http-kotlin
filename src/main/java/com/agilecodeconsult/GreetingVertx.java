@@ -1,9 +1,9 @@
-package net.dpgmedia;
-
-import static io.vertx.core.http.HttpMethod.*;
+package com.agilecodeconsult;
 
 import io.quarkus.vertx.web.Route;
 import io.vertx.ext.web.RoutingContext;
+
+import static io.vertx.core.http.HttpMethod.GET;
 
 public class GreetingVertx {
     @Route(path = "/vertx/hello", methods = GET)

@@ -1,4 +1,4 @@
-package net.dpgmedia;
+package com.agilecodeconsult;
 
 import javax.inject.Inject;
 import javax.ws.rs.GET;

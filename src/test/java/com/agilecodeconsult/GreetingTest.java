@@ -1,4 +1,4 @@
-package net.dpgmedia;
+package com.agilecodeconsult;
 
 import io.quarkus.test.junit.QuarkusTest;
 import io.restassured.RestAssured;

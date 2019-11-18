@@ -1,11 +1,11 @@
-# Example project to use Quarkus + AWS Lambda with Java
+# Example project to use Quarkus + AWS Lambda with Kotlin
 
 # Build and Deploy
 
 Build the project using maven:
  `mvn clean install`
 
-Build a native project:
+Build a native project (GraalVM must already be installed):
 `mvn clean install -Dnative`
 
 ## Simulate AWS Lambda deployment:
@@ -25,5 +25,7 @@ Package your deployment:
 Deploy your package:
 `sam deploy --template-file packaged.yaml --capabilities CAPABILITY_IAM --stack-name <YOUR_STACK_NAME>`
 
-For more information see the offical [quarkus website](https://quarkus.io/guides/amazon-lambda-http)
+For more information concerning build and deploy, see the offical [quarkus website](https://quarkus.io/guides/amazon-lambda-http)
+
+Want to add Oauth2? See the [quarkus website](https://quarkus.io/guides/security-oauth2) for an excellent explanation. 
 

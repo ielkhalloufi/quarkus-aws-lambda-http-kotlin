@@ -3,19 +3,19 @@
          xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>net.dpgmedia</groupId>
-    <artifactId>xtra-local-importer-quarkus</artifactId>
+    <groupId>com.agilecodeconsult</groupId>
+    <artifactId>example-importer-quarkus</artifactId>
     <version>1.0-SNAPSHOT</version>
     <properties>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <surefire-plugin.version>2.22.0</surefire-plugin.version>
         <maven.compiler.parameters>true</maven.compiler.parameters>
-        <quarkus.version>1.0.0.CR1</quarkus.version>
+        <quarkus.version>1.6.1.Final</quarkus.version>
         <compiler-plugin.version>3.8.1</compiler-plugin.version>
         <maven.compiler.source>1.8</maven.compiler.source>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.target>1.8</maven.compiler.target>
-        <kotlin.version>1.3.50</kotlin.version>
+        <kotlin.version>1.3.70</kotlin.version>
     </properties>
     <dependencyManagement>
         <dependencies>
